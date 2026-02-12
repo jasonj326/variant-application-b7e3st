@@ -1,7 +1,5 @@
 Jason Lai: A Guide to Working with Me
 
-"Most counsel look for reasons to say 'no.' I measure success by shipping product."
-
 This is a living document intended to serve as a "user manual" for working with me. It’s inspired by the transparent culture of open-source communities. My goal here is to accelerate our working relationship by being upfront about my communication style, my professional philosophy, my quirks, and my values.
 
 🎯 My Role (As I See It)
