@@ -22,7 +22,7 @@ Async vs. Sync: The Right Tool for the Job
 Async (Deep Work): For legal and regulatory analysis, share your thoughts and questions, along with facts and scenarios. This removes timezone limits and allows for "second thoughts" and creative reflection.
 Sync (Firefighter Mode): For quick gut-checks, DM me on Telegram/Signal. This is for sprinting through urgent issues in real-time.
 
-Response Times: I generally reply to messages within 12 hours. If it's a true emergency, call me.
+Response Times: I generally reply to messages within 12 hours generally, within 4 hours during work hours. If it's a true emergency, call me.
 
 
 Note: This README is a living document. As I learn, grow, and adapt, this guide will evolve alongside me.
