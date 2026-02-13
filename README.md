@@ -14,7 +14,7 @@ Builder-First: I care about your product roadmap just as much as the compliance 
 
 Clarity and Brevity: I strongly believe in "Smart Brevity." If I am handing an investment committee or a founder a 20-page memo, I have failed. I distill complex risk into actionable decision logs, trackers, and go/no-go inputs.
 
-Embrace the Gray: Perfect regulatory clarity does not exist in crypto or any emerging tech areas. My job is to underwrite the risk based on reason and human emotions and behaviors, provide Best/Base/Worst case scenarios, and give you the confidence to ship.
+Embrace the Gray: Perfect regulatory clarity does not exist in crypto or any emerging tech areas. My job is to underwrite the risk based on reason and human behavior predictions, provide Best/Base/Worst case scenarios, and give founders the confidence to ship.
 
 💬 Communication Preferences
 
@@ -24,7 +24,7 @@ Async (Deep Work): For legal and regulatory analysis, share your thoughts and qu
 
 Sync (Firefighter Mode): For quick gut-checks, DM me on Telegram/Signal. This is for sprinting through urgent issues in real-time.
 
-Response Times: I usually reply within 12 hours; during work hours, ~90 minutes. For true emergencies, call me—24/7. When we’re onsite, tap me on the shoulder; if I'm out of sight, ring me.
+Response Times: I usually reply within 24 hours; during work hours, ~90 minutes. For true emergencies, call me—24/7. When we’re onsite, tap me on the shoulder; if I'm out of sight, ring me.
 
 🤝 How I Handle Conflict and Pushback
 
