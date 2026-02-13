@@ -6,7 +6,7 @@ This is a living document intended to serve as a "user manual" for working with 
 
 As a Legal Builder, my core function is to transform regulatory fog into deployment velocity. In the fast-paced worlds of Web3 and AI, "legal" must move at the speed of product.
 
-I don't view legal as a back-office compliance checkpoint; I view it as a strategic growth lever. I am here to help founders and investment teams navigate gray zones so they can outmaneuver incumbents safely.
+I view regulatory constraints as a strategic growth lever. I am here to help founders and investment teams navigate gray zones so they can outmaneuver incumbents safely.
 
 🧠 Professional Philosophy
 
@@ -24,11 +24,11 @@ Async (Deep Work): For legal and regulatory analysis, share your thoughts and qu
 
 Sync (Firefighter Mode): For quick gut-checks, DM me on Telegram/Signal. This is for sprinting through urgent issues in real-time.
 
-Response Times: I generally reply to messages within 12 hours generally, 4 hours during work hours. If it's a true emergency, call me even if it's in the middle of night.
+Response Times: I usually reply within 12 hours; during work hours, ~90 minutes. For true emergencies, call me—24/7. If we’re onsite, tap me on the shoulder; if remote, ring me.
 
 🤝 How I Handle Conflict and Pushback
 
-I don’t mistake the law for the status quo. I’m here to help build the future, not rap sheet. Still, there is a hard line at actual wrongdoing. I’m not your guy if you want to learn How to Get Away with Murder——stick to Netflix.
+I don’t mistake the law for the status quo. There’s a hard line at actual wrongdoing. If you’re looking for How to Get Away with Murder, Netflix is the better use of time. I’ll push into gray zones and pressure-test edges, but I’m here to help build the future, not a rap sheet.
 
 With a scout’s curiosity, Bayesian probability lens, and relentless fact-driven legal scrutiny, I welcome pushback——it’s the fastest way to calibrate new facts and whether we’re building something sustainable and unbreakable. 
 
