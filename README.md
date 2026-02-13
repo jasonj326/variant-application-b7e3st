@@ -28,7 +28,7 @@ Response Times: I usually reply within 12 hours; during work hours, ~90 minutes.
 
 🤝 How I Handle Conflict and Pushback
 
-I don’t mistake the law for the status quo. There’s a hard line at actual wrongdoing. If you’re looking for How to Get Away with Murder, Netflix is the better use of time. I’ll push into gray zones and pressure-test edges, but I’m here to help build the future, not a rap sheet.
+I don’t mistake the law for the status quo. That said, there’s a hard line at actual wrongdoing. If you’re looking for How to Get Away with Murder, Netflix is the better use of time. I’ll push into gray zones and pressure-test edges, but I’m here to help build the future, not a rap sheet.
 
 With a scout’s curiosity, Bayesian probability lens, and relentless fact-driven legal scrutiny, I welcome pushback——it’s the fastest way to calibrate new facts and whether we’re building something sustainable and unbreakable. 
 
