@@ -66,6 +66,10 @@
             details {
                 display: block !important;
             }
+            details > summary {
+                display: none !important; /* Hides the clickable header in print if you want, or keep it */
+            }
+            /* Keep summary content visible but bold */
             details[open] > summary {
                 margin-bottom: 10px;
                 font-weight: bold;
@@ -96,8 +100,9 @@
 
     <!-- Header / Hero -->
     <header class="bg-white border-b border-gray-200 sticky top-0 z-50 dark:bg-gray-900 dark:border-gray-800 transition-colors">
-        <div class="max-w-4xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-start md:items-center">
-            <div>
+        <div class="max-w-4xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-start md:items-center relative">
+            <!-- Left Side: Info -->
+            <div class="flex-1 pr-4">
                 <!-- NEW BADGE -->
                 <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-900 text-white text-xs font-bold tracking-wider uppercase mb-3 shadow-sm dark:bg-gray-800 dark:border dark:border-gray-700">
                     <i class="fa-solid fa-bolt text-yellow-400"></i> Prepared for the Variant Team
@@ -105,22 +110,35 @@
                 
                 <h1 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Jason Jian-Shuen Lai</h1>
                 <p class="text-gray-500 mt-1 font-medium dark:text-gray-400">Legal Builder for the Ownership Economy</p>
-                <p class="text-sm text-gray-400 mt-1 dark:text-gray-500">NY Bar | APAC Regulatory | Product & Protocol Counsel | Fully Committed to Relocating to NYC</p>
+                <p class="text-sm text-gray-400 mt-1 dark:text-gray-500">NY Bar | APAC Regulatory | Crypto-native Counsel | Fully Committed to Relocating to NYC</p>
             </div>
-            <div class="mt-4 md:mt-0 flex flex-wrap gap-3 no-print">
-                <!-- DARK MODE TOGGLE -->
-                <button onclick="toggleTheme()" class="px-3 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-sm font-semibold rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition flex items-center justify-center w-10">
-                    <i class="fa-solid fa-moon dark:hidden"></i>
-                    <i class="fa-solid fa-sun hidden dark:block text-yellow-400"></i>
-                </button>
 
-                <!-- PRINT BUTTON -->
-                <button onclick="printPage()" class="px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-sm font-semibold rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition flex items-center gap-2">
-                    <i class="fa-solid fa-file-pdf"></i> <span class="hidden sm:inline">Save PDF</span>
-                </button>
+            <!-- Right Side: Controls & Links (2x2 Grid) -->
+            <div class="mt-4 md:mt-0 grid grid-cols-2 gap-x-3 gap-y-2 no-print w-full md:w-auto">
+                
+                <!-- Row 1 Left: Dark Mode -->
+                <div class="flex justify-center items-end">
+                     <!-- DARK MODE TOGGLE (SWITCH LAYOUT) -->
+                    <button onclick="toggleTheme()" class="group relative flex h-8 w-16 items-center rounded-full bg-gray-200 p-1 transition-colors dark:bg-gray-700 focus:outline-none" aria-label="Toggle Dark Mode">
+                        <span class="absolute left-1 flex h-6 w-6 items-center justify-center rounded-full bg-white shadow transition-transform duration-300 ease-in-out dark:translate-x-8">
+                            <i class="fa-solid fa-moon text-xs text-gray-700 dark:hidden"></i>
+                            <i class="fa-solid fa-sun hidden text-xs text-yellow-500 dark:block"></i>
+                        </span>
+                    </button>
+                </div>
 
-                <a href="mailto:jason@jasonjlai.net" class="px-4 py-2 bg-black text-white text-sm font-semibold rounded hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 transition">Contact Me</a>
-                <a href="https://www.linkedin.com/in/psjasonlai/" target="_blank" class="px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-sm font-semibold rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition">LinkedIn</a>
+                <!-- Row 1 Right: Save PDF -->
+                <div class="flex justify-center items-end">
+                    <button onclick="printPage()" class="px-3 py-1.5 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-xs font-semibold rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition flex items-center gap-2 h-8 w-full justify-center">
+                        <i class="fa-solid fa-file-pdf"></i> Save PDF
+                    </button>
+                </div>
+
+                <!-- Row 2 Left: Contact Me -->
+                <a href="mailto:jason@jasonjlai.net" class="px-4 py-2 bg-black text-white text-sm font-semibold rounded hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 transition text-center flex items-center justify-center whitespace-nowrap">Contact Me</a>
+                
+                <!-- Row 2 Right: LinkedIn -->
+                <a href="https://www.linkedin.com/in/psjasonlai/" target="_blank" class="px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-sm font-semibold rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition text-center flex items-center justify-center">LinkedIn</a>
             </div>
         </div>
     </header>
@@ -142,7 +160,7 @@
         <section>
             <div class="mb-6 border-b border-gray-200 pb-4 dark:border-gray-800">
                 <h2 class="text-2xl font-bold text-gray-900 dark:text-white">1. Fit to the Mandate</h2>
-                <p class="text-gray-500 text-sm mt-1 dark:text-gray-400">Operationalizing regulation into decisions and deal terms.</p>
+                <p class="text-gray-500 text-sm mt-1 dark:text-gray-400">Operationalizing regulation into decisions and deal terms that compound returns.</p>
             </div>
 
             <div class="space-y-4">
